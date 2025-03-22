@@ -5,6 +5,10 @@
   <p>
     <strong>Federated AI Technology Enabler</strong>
   </p>
+  <p>
+    <a href="https://www.fate.solutions" target="_blank">🌐 Website</a> • 
+    <a href="https://x.com/Fate_AI_" target="_blank">🐦 Twitter</a>
+  </p>
 </div>
 
 ## Overview
