@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="fateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6A5ACD;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Interconnected Paths Symbolizing Fate Network -->
+    <pattern id="networkPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M10 0 L0 10 M10 20 L20 10" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="url(#fateGradient)"/>
+  
+  <!-- Network Overlay -->
+  <rect x="0" y="0" width="500" height="500" fill="url(#networkPattern)"/>
+  
+  <!-- Decision Paths Symbol -->
+  <g transform="translate(200, 180) scale(0.6)">
+    <path d="M100 50 
+             Q150 0, 200 50 
+             Q250 100, 300 50
+             Q350 0, 400 50" 
+          fill="none" 
+          stroke="white" 
+          stroke-width="15" 
+          stroke-linecap="round"/>
+    
+    <circle cx="100" cy="50" r="20" fill="white"/>
+    <circle cx="300" cy="50" r="20" fill="white"/>
+    <circle cx="200" cy="100" r="20" fill="white"/>
+    <circle cx="400" cy="50" r="20" fill="white"/>
+  </g>
+  
+  <!-- FATE Text -->
+  <text x="250" y="420" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="80" 
+        font-weight="bold" 
+        fill="white">
+    FATE
+  </text>
+</svg> 
